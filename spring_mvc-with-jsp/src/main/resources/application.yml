@@ -1,0 +1,17 @@
+server:
+  port: 9020
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver 
+    password: HR
+    url: jdbc:oracle:thin:@10.90.1.105:1521/DEV
+    username: HR
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active:
+    - "dev"
+    
+server:
+  port: 5050
+  
+---  
+      
+spring:
+  profiles:
+    active:
+    - "prod"
+
+server:
+  port: 5055
